@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App">
-          <h2 className="app-header">Cinema</h2>
+          <h2 className="app-header">Herolo Cinema</h2>
           <MovieList />
         </div>
       </Provider>
