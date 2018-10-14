@@ -10,7 +10,7 @@ import {
 import { filterTitle } from "../helpers/filterTitle";
 import axios from "axios";
 
-const ROOT_URL = "https://www.omdbapi.com";
+const ROOT_URL = "//www.omdbapi.com";
 const API_KEY = "&apikey=1a7614bd";
 
 export const getMovies = () => async dispatch => {
