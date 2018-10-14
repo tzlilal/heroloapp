@@ -1,0 +1,116 @@
+body {
+  background-color: #f3f7fb88;
+}
+
+.app-header {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 200%;
+  padding: 1.5% 0;
+}
+
+.btn-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.movie-btn {
+  border: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.1s ease-in;
+  padding: 10px 30px;
+}
+
+.add {
+  text-transform: uppercase;
+  background-color: #b053fc;
+  margin-bottom: 2%;
+}
+
+.add:hover {
+  background-color: #9d2afc;
+}
+
+.edit-delete {
+  background-color: #4334c3;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.edit-delete:hover {
+  background-color: #2b208f;
+}
+
+.movie-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-card {
+  width: 31%;
+  min-width: 240px;
+  margin: 1.5% 1.2%;
+  padding: 1.5% 1%;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 20px -3px #00000032;
+  transition: all 0.4s ease-in-out;
+  color: rgb(44, 44, 44);
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.movie-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 120%;
+  margin-bottom: 3%;
+}
+
+.movie-detail {
+  font-family: "Raleway", sans-serif;
+}
+
+.btns-container {
+  margin-top: auto;
+  align-self: center;
+  transform: scale(0.94);
+}
+
+.card-header {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 120%;
+}
+
+.card {
+  width: 75%;
+}
+
+.modal-base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.ReactModal__Content {
+  opacity: 0;
+}
+
+.ReactModal__Content--after-open {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+
+.ReactModal__Content--before-close {
+  opacity: 0;
+}
